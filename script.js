@@ -1,7 +1,7 @@
 const extendHex = (shortHex) => {
   let s="#";
 	for (let index = 0; index < shortHex.length; index++) {
-		if(shortHex[index]!=#)
+		if(shortHex[index]!='#')
 		{
 			for(let j=0;j<2;j++)
 			{
