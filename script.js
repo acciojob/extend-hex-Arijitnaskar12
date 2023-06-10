@@ -1,9 +1,9 @@
 const extendHex = (shortHex) => {
   let s="#";
 	for (let index = 0; index < shortHex.length; index++) {
-		if(shortHex[i]!='#'){
-			shortHex[i]=shortHex[i]+shortHex[i];
-			s+=shortHex[i];
+		if(shortHex[index]!='#'){
+			shortHex[index]=shortHex[index]+shortHex[index];
+			s+=shortHex[index];
 		}
 		
 	}
